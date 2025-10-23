@@ -1,4 +1,3 @@
-# cloud-cost-optimizer_aws
 # Cloud Cost Optimizer with AWS
 
 ## Project Overview
