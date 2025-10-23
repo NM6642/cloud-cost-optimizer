@@ -1,6 +1,5 @@
-# Terraform state files
-terraform.tfstate
-terraform.tfstate.backup
+# Terraform directories
+.terraform/
 
 # Lambda deployment zip
 lambda.zip
