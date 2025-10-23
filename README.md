@@ -39,7 +39,7 @@ This screenshot shows the SNS topic setup that triggers the Lambda function.
 ### 3. Lambda Function
 This screenshot shows the Lambda function code that stops idle EC2 instances.
 
-![Lambda Function](lamda_function.png)
+![Lambda Function](lambda_function.png)
 
 ---
 
@@ -53,7 +53,7 @@ When the Lambda is triggered, this is how the EC2 instance stops.
 ### 5. CloudWatch Alarm
 This screenshot shows the CloudWatch alert email notification when CPU drops below the threshold.
 
-![CloudWatch Alarm](Ec2_stop.png)
+![CloudWatch Alarm](screenshots:cloudwatch_alert.png)
 
 ---
 ## How It Works  
