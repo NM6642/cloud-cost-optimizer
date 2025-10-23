@@ -1,0 +1,11 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lambda deployment zip
+lambda.zip
+
+# Test responses and logs
+response.json
+*.log
+
