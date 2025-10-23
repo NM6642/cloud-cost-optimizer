@@ -7,7 +7,7 @@ This project automates **EC2 cost optimization**. Idle EC2 instances are automat
 ---
 
 ## Architecture
-![Architecture Diagram](diagrams/architecture_diagram.png)
+![Architecture Diagram](architecture_diagram.png)
 
 **Flow:**
 1. EC2 instances run workloads.
@@ -24,29 +24,29 @@ This project automates **EC2 cost optimization**. Idle EC2 instances are automat
 ### 1. EC2 CPU Metrics
 These graphs show CPU usage over time.
 
-![CPU Graph](diagrams/cpu.png)
-![CPU Graph 2](diagrams/cpu_2.png)
+![CPU Graph](cpu.png)
+![CPU Graph 2](cpu_2.png)
 
 ---
 
 ### 2. SNS Topic
 This screenshot shows the SNS topic setup that triggers the Lambda function.
 
-![SNS Topic](diagrams/sns_topic.png)
+![SNS Topic](sns_topic.png)
 
 ---
 
 ### 3. Lambda Function
 This screenshot shows the Lambda function code that stops idle EC2 instances.
 
-![Lambda Function](diagrams/lambda_function.png)
+![Lambda Function](lambda_function.png)
 
 ---
 
 ### 4. EC2 Stop Action
 When the Lambda is triggered, this is how the EC2 instance stops.
 
-![EC2 Stop](diagrams/ec2_stop.png)
+![EC2 Stop](ec2_stop.png)
 
 ---
 
