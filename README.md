@@ -52,7 +52,7 @@ When the Lambda is triggered, this is how the EC2 instance stops.
 ### 5. CloudWatch Alarm
 This screenshot shows the CloudWatch alert email notification when CPU drops below the threshold.
 
-![CloudWatch Alarm](screenshots:cloudwatch_alert.png)
+![CloudWatch Alarm](cloudwatch_alert.png)
 
 ---
 ## How It Works  
